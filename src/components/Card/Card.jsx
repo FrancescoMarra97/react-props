@@ -1,7 +1,8 @@
 import Button from "../Button/Button";
-export default function Card(post) {
+export default function Card({ post }) {
+
     return (
-        <div class="card">
+        <div className="card">
             <img src={post.image} alt="Image" className="card-img" />
             <div class="card-body">
                 <h5 className="card-title">{post.title}</h5>
