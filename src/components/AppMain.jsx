@@ -7,7 +7,7 @@ export default function AppMain() {
         <main>
             <div className="container">
                 {/* <Card /> */}
-                {posts.map((data, id) => <Card key={id} post={data} />)}
+                {posts.map((data, id) => data.published && <Card key={id} post={data} />)}
             </div>
         </main>
     )

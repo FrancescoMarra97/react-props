@@ -33,6 +33,7 @@ header {
 .container {
   display: flex;
   justify-content: center;
+  width: 80%;
 }
 
 .card {
@@ -75,4 +76,16 @@ header {
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.card-tag {
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: start;
+  margin-top: 8px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
