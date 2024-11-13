@@ -1,3 +1,5 @@
+import Button from "./Button/Button";
+
 export default function AppMain() {
 
     return (
@@ -10,7 +12,7 @@ export default function AppMain() {
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus saepe, aperiam ex asperiores dolorum ipsa accusantium, sed rem sapiente esse veniam reiciendis facilis sint nihil neque! Quas illo corrupti quia!</p>
                     </div>
                     <div class="card-footer">
-                        <button>Leggi di più</button>
+                        <Button />
                     </div>
                 </div>
             </div>
