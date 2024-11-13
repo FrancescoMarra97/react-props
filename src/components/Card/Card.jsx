@@ -5,7 +5,7 @@ export default function Card(post) {
             <img src={post.image} alt="Image" className="card-img" />
             <div class="card-body">
                 <h5 className="card-title">{post.title}</h5>
-                <p className="card-text">{post.image}</p>
+                <p className="card-text">{post.content}</p>
                 <p className="card-tag">{post.tags}</p>
             </div>
             <div class="card-footer">
